@@ -19,7 +19,7 @@ class _CurrentLocationScreenState extends State<CurrentLocationScreen> {
 
   Set<Marker> markers = {};
 
-  WeatherFactory wf = new WeatherFactory("8c6783c8a73628c61ec581225f69bd9c");
+  WeatherFactory wf = new WeatherFactory("YOUR API KEY");
 
   @override
   Widget build(BuildContext context) {
